@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+✅ 📊 Admin Dashboard System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Admin Dashboard and Inventory Management System built with React and PHP that helps manage inventory data through a clean and interactive interface. The system allows administrators to monitor, manage, and organize records efficiently with a responsive dashboard layout.
 
-## Available Scripts
+This project integrates a React frontend with a PHP backend and MySQL database, providing a complete full-stack solution for data visualization and management.
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+📈 Interactive admin dashboard interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🧾 Inventory management system
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+➕ Add new records
 
-### `npm test`
+✏️ Edit existing records
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+❌ Delete records
 
-### `npm run build`
+📊 Real-time data display
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔄 Backend API integration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🗄 Database-driven system
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📱 Responsive UI
 
-### `npm run eject`
+⚡ Fast data operations
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧱 Project Structure
+Dashboard/
+│
+├── backend/            # PHP backend APIs
+├── src/                # React application source code
+├── public/             # Static files
+├── inventory_db.sql    # Database schema
+├── package.json        # Frontend dependencies
+└── README.md
+🛠 Tech Stack
+Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+HTML5
 
-## Learn More
+CSS3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+PHP
 
-### Code Splitting
+Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MySQL
 
-### Analyzing the Bundle Size
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/Sourvds/Dashboard.git
+cd Dashboard
+2️⃣ Setup Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open phpMyAdmin
 
-### Making a Progressive Web App
+Create a new database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Import inventory_db.sql
 
-### Advanced Configuration
+3️⃣ Setup Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Move backend folder to your XAMPP htdocs
 
-### Deployment
+Start Apache and MySQL in XAMPP
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4️⃣ Run Frontend
+npm install
+npm start
 
-### `npm run build` fails to minify
+Open browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://localhost:3000
+📊 How It Works
+
+React frontend sends requests to PHP backend APIs
+
+PHP processes requests and communicates with MySQL database
+
+Data is returned and displayed in dashboard UI
+
+🎯 Use Cases
+
+Inventory tracking
+
+Admin panel management
+
+Business data monitoring
+
+Product management system
+
+Learning full-stack dashboard development
+
+🔮 Future Improvements
+
+Authentication system
+
+Role-based access
+
+Charts and analytics
+
+Export reports (CSV / PDF)
+
+Search and filters
+
+Dark mode UI
+
+👨‍💻 Author
+
+Sourav Das
+
+📄 License
+
+This project is open source and available for learning and development purposes.
