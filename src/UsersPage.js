@@ -37,7 +37,6 @@ import {
   Search,
   Delete,
   Visibility,
-  FilterList,
   MoreVert,
   Block,
   CheckCircle,
@@ -45,7 +44,9 @@ import {
   Refresh,
   Download,
   Security,
-  AdminPanelSettings
+  AdminPanelSettings,
+  Person,
+  PersonOff
 } from '@mui/icons-material';
 
 // Sample users data

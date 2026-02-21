@@ -20,7 +20,8 @@ import {
   TextField,
   InputAdornment,
   Tabs,
-  Tab
+  Tab,
+  Badge
 } from '@mui/material';
 import {
   CheckCircle,
@@ -32,7 +33,11 @@ import {
   FilterList,
   Search,
   NotificationsActive,
-  NotificationsOff
+  NotificationsOff,
+  ShoppingCart,
+  Payment,
+  Person,
+  LocalShipping
 } from '@mui/icons-material';
 
 // Sample notifications data
