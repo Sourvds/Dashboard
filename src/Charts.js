@@ -1,6 +1,6 @@
 // src/components/Charts.js
 import React from 'react';
-import { Grid, Paper, Typography, Box } from '@mui/material';
+import { Grid, Paper, Typography } from '@mui/material';
 import {
   LineChart,
   Line,
@@ -12,8 +12,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  BarChart,
-  Bar,
   Legend
 } from 'recharts';
 

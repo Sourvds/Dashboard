@@ -14,11 +14,6 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Drawer,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
   IconButton,
   useMediaQuery
 } from '@mui/material';
@@ -27,7 +22,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'r
 
 // Import components
 import Sidebar from './Sidebar';
-import Header from './Header';
 import StatsGrid from './StatsGrid';
 import Charts from './Charts';
 import RecentActivities from './RecentActivities';

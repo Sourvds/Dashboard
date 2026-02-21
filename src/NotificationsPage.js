@@ -14,11 +14,7 @@ import {
   Button,
   Divider,
   Switch,
-  FormControlLabel,
   Grid,
-  Card,
-  CardContent,
-  Badge,
   Menu,
   MenuItem,
   TextField,
@@ -27,21 +23,14 @@ import {
   Tab
 } from '@mui/material';
 import {
-  Notifications as NotificationsIcon,
   CheckCircle,
-  Error,
   Warning,
   Info,
-  ShoppingCart,
-  Person,
-  Payment,
-  LocalShipping,
   MarkEmailRead,
   Delete,
   Settings,
   FilterList,
   Search,
-  MoreVert,
   NotificationsActive,
   NotificationsOff
 } from '@mui/icons-material';

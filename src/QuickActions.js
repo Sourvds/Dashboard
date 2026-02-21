@@ -5,7 +5,6 @@ import {
   Typography,
   Grid,
   IconButton,
-  Box,
   Card,
   CardContent
 } from '@mui/material';

@@ -27,9 +27,6 @@ import {
   Avatar,
   Card,
   CardContent,
-  Switch,
-  FormControlLabel,
-  Badge,
   Menu,
   ListItemIcon,
   ListItemText,
@@ -38,26 +35,17 @@ import {
 } from '@mui/material';
 import {
   Search,
-  Edit,
   Delete,
-  Add,
   Visibility,
   FilterList,
-  Person,
-  Email,
-  Phone,
-  LocationOn,
-  CalendarToday,
   MoreVert,
   Block,
   CheckCircle,
-  Warning,
   PersonAdd,
   Refresh,
   Download,
   Security,
-  AdminPanelSettings,
-  PersonOff
+  AdminPanelSettings
 } from '@mui/icons-material';
 
 // Sample users data

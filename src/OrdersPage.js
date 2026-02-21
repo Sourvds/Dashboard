@@ -38,11 +38,7 @@ import {
   Delete,
   Add,
   Visibility,
-  FilterList,
-  Person,
-  Payment,
-  ShoppingCart,
-  LocalShipping
+  FilterList
 } from '@mui/icons-material';
 
 // Sample order data
